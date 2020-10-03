@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_student_profile_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E84C3D"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:gravity="bottom|center_horizontal"
+            android:text="Tutor Finder"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:gravity="center_horizontal"
+            android:text="Student Profile Edit"
+            android:textColor="#FAFAFA"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:background="#FBFBFB"
+            android:hint="User Name"
+            android:singleLine="true"
+            android:textColor="#070000" />
+
+        <EditText
+            android:id="@+id/editStudentEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:background="#FBFBFB"
+            android:hint="Email"
+            android:textColor="#070000" />
+
+        <EditText
+            android:id="@+id/editStudentPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:background="#FBFBFB"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:textColor="#070000" />
+
+        <EditText
+            android:id="@+id/editStudentPhone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:background="#FBFBFB"
+            android:hint="Phone Number"
+            android:textColor="#070000" />
+
+        <EditText
+            android:id="@+id/editStudentLocation"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:background="#FBFBFB"
+            android:hint="Location"
+            android:textColor="#070000" />
+
+        <Button
+            android:id="@+id/editStudentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:background="#2475BE"
+            android:text="Edit Profile"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

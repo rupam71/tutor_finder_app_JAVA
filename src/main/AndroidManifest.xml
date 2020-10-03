@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tutorfinderapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TeacherProfileEditActivity"></activity>
+        <activity android:name=".StudentProfileEditActivity" />
+        <activity android:name=".TSConnectActivity2" />
+        <activity android:name=".STConnectedActivity" />
+        <activity android:name=".TeacherToStudentActivity" />
+        <activity android:name=".TeacherReqActivity" />
+        <activity android:name=".TutorSeacrhActivity" />
+        <activity android:name=".TeacherSignUp" />
+        <activity android:name=".TeacherProfileActivity" />
+        <activity android:name=".StudentToTeacherProfileActivity" />
+        <activity android:name=".StudentSignUpActivity" />
+        <activity android:name=".StudentProfileActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

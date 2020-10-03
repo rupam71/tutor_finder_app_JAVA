@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TutorFinderApp</string>
+    <string-array name="sgnSubjectT">
+        <item>Subject</item>
+        <item>Paython</item>
+        <item>Html</item>
+        <item>Java</item>
+        <item>C++</item>
+    </string-array>
+    <string-array name="srSub">
+        <item>Subject</item>
+        <item>Paython</item>
+        <item>Html</item>
+        <item>Java</item>
+        <item>C++</item>
+    </string-array>
+</resources>

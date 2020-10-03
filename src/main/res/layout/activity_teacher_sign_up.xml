@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#E84C3D"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="Tutor Finder"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:gravity="center_horizontal"
+        android:text="Student Registration Form"
+        android:textColor="#FAFAFA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sgnNameT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:background="#F6F5F5"
+        android:hint="User Name"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/sgnEmailT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:background="#F6F5F5"
+        android:hint="Email"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/sgnPassT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:background="#F6F5F5"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/sgnPhnT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:background="#F6F5F5"
+        android:hint="Phone Number"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/sgnLocationT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:background="#F6F5F5"
+        android:hint="Location"
+        android:textColor="#000000" />
+
+    <Spinner
+        android:id="@+id/sgnSubjectT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:background="#F6F5F5" />
+
+    <Button
+        android:id="@+id/tSgnBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:background="#2475BE"
+        android:text="SignUp"
+        android:textColor="#FBFBFB"
+        android:textSize="16sp" />
+</LinearLayout>
